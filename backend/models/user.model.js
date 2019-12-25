@@ -6,7 +6,6 @@ const userSchema = new Schema(
   {
     category: {
       type: String,
-      required: true,
       unique: true,
       trim: true
     }

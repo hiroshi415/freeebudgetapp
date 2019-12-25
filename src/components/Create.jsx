@@ -68,7 +68,6 @@ export default class CreateExercise extends Component {
             <label>カテゴリー: </label>
             <select
               ref="userInput"
-              required
               className="form-control"
               value={this.state.category}
               onChange={this.onChangeCategory}
