@@ -117,7 +117,7 @@ export default class CreateExercise extends Component {
           <div className="form-group">
             <input
               type="submit"
-              value="Create Exercise Log"
+              value="出費を計算"
               className="btn btn-primary"
             />
           </div>
